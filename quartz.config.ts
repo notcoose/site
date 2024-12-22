@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "Markus Perez",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -24,30 +24,54 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
+        header: "",
         body: "Source Sans Pro",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
+          //used for background
+          light: "#f0eff4",
+
           lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
+
+          //used for meta data
+          gray: "#3f37c9",
+
+          //used for text
+          darkgray: "#3a0ca3",
+
+          //used for headings and file names
+          dark: "#7209b7",
+
+          //used for name, email, folder names, and external links
+          secondary: "#f72585",
+
+          //used for external link highlighting
+          tertiary: "#d283ff",
+          
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#fff23688",
         },
         darkMode: {
           light: "#161618",
           lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
+
+          //used for meta data
+          gray: "#e05780",
+
+          //used for text
+          darkgray: "#ffe0e9",
+
+          //used for headings and file names
+          dark: "#ff9ebb",
+
+          //used for name, email, folder names, and external links
+          secondary: "#ff7aa2",
+
+          //used for external link highlighting
+          tertiary: "#e05780",
+
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#b3aa0288",
         },
